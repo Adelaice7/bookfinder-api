@@ -20,7 +20,7 @@ import org.json.simple.parser.JSONParser;
 
 public class HttpClientConn {
 
-    private static final String API_KEY = "AIzaSyCJq-VTymRQuEiWSWkYAV7cc6vOcnrHGFI";
+    private static final String API_KEY = "";
 
     public void connect(String query) {
 

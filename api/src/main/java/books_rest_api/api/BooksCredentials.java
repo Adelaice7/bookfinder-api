@@ -15,7 +15,7 @@ import com.google.api.services.books.BooksRequestInitializer;
 
 public class BooksCredentials {
 
-    final static String API_KEY = "AIzaSyCJq-VTymRQuEiWSWkYAV7cc6vOcnrHGFI";
+    final static String API_KEY = "";
 
     private final static String APPLICATION_NAME = "Google Books Search";
 
