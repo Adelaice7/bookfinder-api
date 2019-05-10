@@ -6,12 +6,13 @@ import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args) {
-        //HttpClientConn conn = new HttpClientConn();
+        HttpClientConn conn = new HttpClientConn();
+        String query = "Harry Potter";
         
-        //conn.connect();
+        conn.connect(query);
         
+        /*
         String query = "";
-        String prefix = null;
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the query");
@@ -28,6 +29,6 @@ public class Main {
             e.printStackTrace();
         }
         
-        sc.close();
+        sc.close();*/
     }
 }

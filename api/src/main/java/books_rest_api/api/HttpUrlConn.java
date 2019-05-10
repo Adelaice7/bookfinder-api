@@ -21,8 +21,6 @@ public class HttpUrlConn {
         this.urlString = urlString;
     }
 
-
-
     public void connectGet() {
         URL urlObj = null;
         HttpURLConnection con = null;
