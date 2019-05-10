@@ -1,1 +1,1 @@
-# Book Finder API using Google Books API
+# Book Finder App using Google Books API
