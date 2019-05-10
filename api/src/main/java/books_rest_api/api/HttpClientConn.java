@@ -44,10 +44,9 @@ public class HttpClientConn {
             HttpResponse<InputStream> response = client.send(request, BodyHandlers.ofInputStream());
             System.out.println(response.statusCode());
             System.out.println(response.body());
-            
+
             // Parse output into JSONObject ?
             // Tie to Books Java Client Library?
-            
 
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block

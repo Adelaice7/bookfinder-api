@@ -97,7 +97,7 @@ public class BooksCredentials {
             System.out.println("--------------------");
             System.out.println(
                 volumes.getTotalItems() + " total results at http://books.google.com/ebooks?q="
-                + URLEncoder.encode(query, "UTF-8"));
+                            + URLEncoder.encode(query, "UTF-8"));
         }
     }
 
